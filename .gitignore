@@ -4,7 +4,9 @@
 .dart_tool/
 .packages
 build/
-# If you're building an application, you may want to check-in your pubspec.lock
+
+# Omit committing pubspec.lock for library packages; see
+# https://dart.dev/guides/libraries/private-files#pubspeclock.
 pubspec.lock
 
 # Directory created by dartdoc
@@ -19,3 +21,11 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/*
+!.idea/dictionaries/
+!.idea/copyright/
