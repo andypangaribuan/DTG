@@ -22,7 +22,7 @@ Dart to Go! An excellent utility provided with simplicity.
 In the pubspec.yaml of your flutter project, add the following dependency:
 ```yaml
 dependencies:
-  dtg: ^1.0.0
+  dtg: ^1.0.1
 ```
 
 In your library add the following import:

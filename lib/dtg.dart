@@ -9,3 +9,4 @@
 library dtg;
 
 export 'src/dtg.dart';
+export 'src/tuple.dart';
