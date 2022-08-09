@@ -1,6 +1,6 @@
 name: dtg
 description: Dart to Go! An excellent utility provided with simplicity.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/andypangaribuan/DTG
 
 environment:

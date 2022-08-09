@@ -32,6 +32,16 @@ class Args {
   String _arg(int index) => _args.length >= index + 1 ? _args[index].trim() : '';
   String _opt(int index) => _opts.length >= index + 1 ? _opts[index].trim() : '';
 
+  bool opt(String name) {
+    for (var opt in _opts) {
+      if (opt == name) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
   String get arg1 => _arg(0);
   String get arg2 => _arg(1);
   String get arg3 => _arg(2);
