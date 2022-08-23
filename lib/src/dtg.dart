@@ -9,6 +9,8 @@ library src;
 
 import 'dart:io';
 
+import 'package:dtg/src/model.dart';
+
 part 'args.dart';
 part 'cli.dart';
 part 'print.dart';

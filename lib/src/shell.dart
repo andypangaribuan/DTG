@@ -10,6 +10,11 @@ part of src;
 class _Shell {
   _Shell._();
 
+  Future<BashResponse> exec({required String command, String? workingDirectory}) async {
+    final res = await Process.run('bash', ['-c', command], workingDirectory: workingDirectory);
+    return BashResponse(res.stdout, res.stderr, res.exitCode);
+  }
+
   Future<List<List<String>>> table(
       {required String command,
       required List<String> lsHeader,
